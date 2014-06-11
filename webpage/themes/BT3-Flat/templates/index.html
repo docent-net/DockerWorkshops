@@ -59,11 +59,15 @@
             <a href="#" class="btn-fullscreen"><i class="fa fa-external-link"></i></a>
 
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#home" class="scrollTo">Home</a></li>
+              <!--              <li><a href="#home" class="scrollTo">Home</a></li>-->
               <li><a href="#about" class="scrollTo">About</a></li>
+              <li><a href="#forwho" class="scrollTo">For who?</a></li>
               <li><a href="#venue" class="scrollTo">Venue</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              {% if LINKS %}
+              <li><a href="#schedule" class="scrollTo">Schedule</a></li>
+              <li><a href="#gear" class="scrollTo">Gear</a></li>
+              <li><a href="#register" class="scrollTo">Register</a></li>
+              <!--              <li><a href="blog.html">Blog</a></li>-->
+<!--              {% if LINKS %}
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown">Links <b class="caret"></b></a>
                   <ul class="dropdown-menu" style="background-color:#000">
@@ -72,7 +76,7 @@
                   {% endfor %}
                   </ul>
                 </li>
-              {% endif %}
+              {% endif %}-->
             </ul>
           </div><!-- /.navbar-collapse -->
 
@@ -146,6 +150,32 @@
     </section>
     <!-- /ABOUT -->
 
+    <!-- FORWHO -->
+    <section id="forwho">
+      <div class="container">
+        <header class="text-center">
+          <h1>For who?</h1>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <div class="row text-left">
+          <h3>Who should attend?</h3>
+          <p>Workshops will be open and free for everyone; keep in mind that
+          there's some entrance level of knowledge you should have in order to
+          be able to fully understand and solve workshops tasks. You should be
+          sysadmin with good CLI skills and experience with virtualization
+          techniques (at least know the difference between hypervizor type 1,2
+          and containers).</p>
+
+          <p>Keep in mind that we will be using Vagrant which will help us deploy
+          and build workshop environments.</p>
+        </div>
+
+      </div>
+    </section>
+    <!-- /FORWHO -->
+
     <!-- VENUE -->
     <section id="venue">
       <div class="container">
@@ -163,6 +193,69 @@
     </section>
     <!-- /VENUE -->
 
+    <!-- schedule -->
+    <section id="schedule">
+      <div class="container">
+        <header class="text-center">
+          <h1>SCHEDULE</h1>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <div class="row text-left">
+          <ul>
+            <li>10:00 start: let's introduce & make sure our dev envs are good
+            to go!</li>
+            <li>11:00 someone will talk about something</li>
+            <li>12:00 wtf?</li>
+            <li>13:00 Ansible and Docker</li>
+            <li>14:00 use case #1</li>
+            <li>15:00 use case #2</li>
+            <li>16:00 use case #3</li>
+            <li>17:00 use case #4</li>
+            <li>...</li>
+            <li>beer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- /SCHEDULE -->
+
+    <!-- gear -->
+    <section id="gear">
+      <div class="container">
+        <header class="text-center">
+          <h1>GEAR</h1>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <div class="row text-left">
+          You'll need a laptop, good mood and patience :) Also make sure to run
+          through this <strong>checklist</strong> before workshops so you have 
+          set up the Docker environment properly and you won't loose your time 
+          to poke around it during the workshops.
+        </div>
+      </div>
+    </section>
+    <!-- /GEAR-->
+
+    <!-- register-->
+    <section id="register">
+      <div class="container">
+        <header class="text-center">
+          <h1>REGISTER</h1>
+        </header>
+
+        <div class="divider"><!-- lines divider --></div>
+
+        <div class="row text-left">
+          In order to register please join the DevOPS meetup and RSVP for the
+          <a href="http://www.meetup.com/Krakow-DevOps/">DockerWorkshops event</a>,
+        </div>
+      </div>
+    </section>
+    <!-- /REGISTER-->
     <!-- WORK -->
 <!--    <section id="work" class="alternate arrow-down">
       <div class="container">
@@ -297,7 +390,7 @@
           <p>RECENT ENTRIES</p>
         </header>
 
-        <div class="divider"><!-- lines divider --></div>
+        <div class="divider"></div>
 
         <article>
           <div class="row animate_fade_in">
@@ -330,7 +423,7 @@
           </div>
         </article>
 
-        <div class="divider"><!-- lines divider --></div>
+        <div class="divider"></div>
 
         <article class="text-center" data-animation="bounceIn">
           <a href="blog.html" class="plusNav" title="more from blog">+</a> 
