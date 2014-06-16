@@ -1,3 +1,3 @@
 ## Venue ##
 
-Base Lab, Wyczółkowksiego, Kraków
+Base Lab, Wyczółkowskiego 7, Kraków
